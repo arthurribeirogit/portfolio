@@ -86,6 +86,7 @@
 @media(max-width: 1280px) { 
     .projetos .container-projetos {
         padding: 0 var(--mobile-padding);
+        justify-content: center;
     }
 
     .projetos .container-projetos .projeto {
