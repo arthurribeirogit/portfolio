@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio - Arthur Ribeiro</title>
+
+  <link rel="shortcut icon" href="./src/images/favicon-16x16.png" type="image/x-icon">
+  <link rel="stylesheet" href="./src/css/reset.css">
+  <link rel="stylesheet" href="./src/css/variables.css">
+  <link rel="stylesheet" href="./src/css/globais.css">
+  <link rel="stylesheet" href="./src/css/font-awesome.css">
+  <link rel="stylesheet" href="./src/css/secoes/header.css">
+  <link rel="stylesheet" href="./src/css/secoes/home.css">
+  <link rel="stylesheet" href="./src/css/secoes/sobre.css">
+  <link rel="stylesheet" href="./src/css/secoes/habilidades.css">
+  <link rel="stylesheet" href="./src/css/secoes/projetos.css">
+  <link rel="stylesheet" href="./src/css/secoes/footer.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
+</head>
+
+<body>
+  <header class="header container space-between alinhar-centro">
+    <div class="logo">
+      <h1>AR</h1>
+    </div>
+
+    <nav>
+      <input id="menu-hamburguer" type="checkbox" />
+
+      <label for="menu-hamburguer">
+        <div class="menu">
+          <span class="hamburguer"></span>
+        </div>
+      </label>
+      <ul>
+        <li><a href="#sobre-mim">Sobre mim</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#projetos">Meus projetos</a></li>
+    </nav>
+  </header>
+
+  <section class="home">
+    <div class="container wrap full-sreen alinhar-centro">
+      <div class="text-home">
+
+        <p>Olá, </p>
+        <h2>Sou Arthur Ribeiro</h2>
+        <h3>Desenvolvedor Frontend</h3>
+
+        <div class="redes-sociais">
+          <a href="https://www.linkedin.com/in/arthur-ribeiro-436499178/" class="outer-shadow" target="_blank">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a href="https://wa.me/5514997958155" class="outer-shadow" target="_blank">
+            <i class="fab fa-whatsapp"></i>
+          </a>
+          <a href="https://github.com/arthurribeirogit" class="outer-shadow" target="_blank">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://ig.me/m/turibeiroo" class="outer-shadow" target="_blank">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="img-home">
+        <div class="img-box inner-shadow">
+          <img src="./src/images/foto-perfil.png" alt="foto do perfil" class="outer-shadow">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="sobre-mim container wrap" id="sobre-mim">
+    <div class="section-title">
+      <h2>Sobre mim</h2>
+    </div>
+
+    <div class="imagem-sobre-mim wrap">
+      <div class="img-box inner-shadow">
+        <img src="./src/images/foto-perfil.png" alt="foto de perfil" class="outer-shadow">
+      </div>
+    </div>
+
+    <div class="informacoes-sobre-mim">
+      <p>
+        <strong>Meu nome é Arthur Ribeiro e estou me aventurando na área de tecnologia!</strong> Sou formado em bacharel em química pela UEM, mas descobri recentemente uma grande admiração pela área de programação.
+      </p>
+
+      <p>A programação acabou virando um hobby pra mim nas horas vagas e estou gostando bastante de me aprofundar sobre o assunto com alguns cursos.</p>
+
+      <p>Apesar de bastante conhecimento adquirido na bagagem eu ainda não atuei na área. Então se tem interesse em saber da minha vida profissional, da uma olhadinha no meu currículo!</p>
+
+      <div class="botoes">
+        <a href="./src/arquivos/Arthur Ribeiro - Currículo.pdf" class="botao outer-shadow" target="_blank">Veja meu CV</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="habilidades section container wrap" id="habilidades">
+
+    <div class="section-title">
+      <h2>Habilidades</h2>
+    </div>
+
+
+    <div class="container-habilidades">
+      <div class="informacoes html">
+        <div class="logo">
+          <i class="devicon devicon-html5-plain-wordmark" id="html"></i>
+        </div>
+        <h3>HTML5</h3>
+        <p>É considerado a estrutura de um site! A base para o desenvolvimento Frontend, onde são postas todas as informações de forma semântica para o usuário.</p>
+      </div>
+
+      <div class="informacoes css">
+        <div class="logo">
+          <i class="devicon devicon-css3-plain-wordmark" id="css"></i>
+        </div>
+        <h3>CSS3</h3>
+        <p>É o que da vida ao site! Onde é possível estilizar o site, dar o formato adequado a cada texto, imagem, botões e colocar cada elemento no seu devido lugar.</p>
+      </div>
+
+      <div class="informacoes github">
+        <div class="logo">
+          <i class="devicon devicon-github-original" id="github"></i>
+        </div>
+        <h3>GitHub</h3>
+        <p>É onde se os desenvolvedores se conectam! Está é uma plataforma para exppor seus projetos e bastante utilizada como forma coletiva nas empresas para compartilhamento. </p>
+      </div>
+
+      <div class="informacoes git">
+        <div class="logo">
+          <i class="devicon devicon-git-plain" id="git"></i>
+        </div>
+        <h3>Git</h3>
+        <p>É a grande ponte! Usa-se o Git para dar comandos do projeto, transfi-lo de forma remota, clona-lo para o seu PC local, dentre muitas outras funções.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="projetos section" id="projetos">
+    <div class="container">
+      <div class="wrap">
+        <div class="section-title">
+          <h2>Meus projetos</h2>
+        </div>
+      </div>
+
+      <div class="container-projetos">
+        <div class="projeto pokemon">        
+          <a href="https://arthurribeirogit.github.io/listagem-pokemon/" target="_blank">
+            <img src="./src/images/pokemon.jpg" alt="Pokemon" />
+            <img src="./src/images/Animação-poke.gif" alt="Animação pokemon" class="hover-image">
+            <h3>Listagem Pokemon</h3>
+            <div class="informacoes-projeto">          
+              <p>Listagem usando HTML, CSS e JavaScript</p>
+              <p>🔗 Ver no GitHub Pages</p>
+            </div>     
+          </a>
+        </div>
+        <div class="projeto ">        
+          <a href="https://arthurribeirogit.github.io/NFT-card/" target="_blank">
+            <img src="./src/images/NFT-Card.jpg" alt="Projeto NFT-Card"/>
+            <h3>Profile NFT Card</h3>
+            <div class="informacoes-projeto">          
+              <p>Projeto feito usando Flex-box e Flex-Itens</p>
+              <p>🔗 Ver no GitHub Pages</p>
+            </div>     
+          </a>
+        </div>
+        <div class="projeto">        
+          <a href="https://arthurribeirogit.github.io/huddle-landing-page-with-single-introductory-section-master/" target="_blank">
+            <img src="./src/images/Landing-page.jpg" alt="Projeto Landing Page" />
+            <img src="./src/images/Animação-landing-page.gif" alt="Animação-landing-page" class="hover-image">
+            <h3>Landing-page</h3>
+            <div class="informacoes-projeto">          
+              <p>Landing-page usando Flex-box e Flex-Itens</p>
+              <p>🔗 Ver no GitHub Pages</p>
+            </div>     
+          </a>
+        </div>
+        <div class="projeto">        
+          <a href="https://arthurribeirogit.github.io/super-mario-bross/" target="_blank">
+            <img src="./src/images/Super Mario.jpg" alt="Projeto Super Mario" />
+            <h3>Mario Bross</h3>
+            <div class="informacoes-projeto">          
+              <p>Pagina com trailer do Super Mario Bros</p>
+              <p>🔗 Ver no GitHub Pages</p>
+            </div>     
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+    <h2>Me envie uma mensagem!</h2>
+    <div class="redes-sociais">
+      <div class="redes-sociais">
+        <a href="#" class="outer-shadow">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+        <a href="#" class="outer-shadow">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+        <a href="#" class="outer-shadow">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="#" class="outer-shadow">
+          <i class="fab fa-instagram"></i>
+        </a>
+      </div>
+    </div>
+    </div>
+
+  </footer>
+</body>
+
+</html>

@@ -1,0 +1,14 @@
+.footer {
+    margin-top: 7rem;
+    text-align: center;
+    background-color: var(--cor-de-fundo-2);
+    padding: 5rem;
+}
+
+.footer h2 {
+    font-family: 'Montserrat';
+    font-size: 1.8rem;
+    font-weight: 700;
+    letter-spacing: 7px;
+    margin-bottom: 20px;
+}

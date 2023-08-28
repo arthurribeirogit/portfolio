@@ -1,0 +1,21 @@
+:root {
+    --cor-primaria: #43bd8e;
+    --cor-secundaria: rgb(148, 1, 206);
+    --cor-branca: #fff;
+    --cor-de-fundo: rgb(29, 29, 29);
+    --cor-de-fundo-2:rgb(41, 40, 40);
+    --cor-de-fundo-item: #000;
+    --cor-destaque: rgb(28, 247, 28);
+
+    --cor-do-box-1: #222327;
+    --cor-do-box-2: #454545;
+}
+
+:root {
+    --fonte-primaria: 'Lato';
+    --fonte-secundaria: 'Montsserat', sans-serif;
+}
+
+:root {
+    --mobile-padding: 30px;
+}
