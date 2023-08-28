@@ -18,7 +18,7 @@
 
 @media(max-width:425px){
     .projetos .container-projetos .projeto {
-    height: 100%;
+    height: auto;
 }
 }
 
