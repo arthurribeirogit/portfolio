@@ -14,7 +14,12 @@
     -webkit-transition: all .3s ease;
     position: relative;
     box-shadow: 0px 0px 7px 0.001px var(--cor-destaque);
+}
+
+@media(max-width:425px){
+    .projetos .container-projetos .projeto {
     max-height: 100%;
+}
 }
 
 .projetos .container-projetos .projeto:hover,
