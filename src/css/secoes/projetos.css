@@ -87,4 +87,14 @@
     .projetos .container-projetos {
         padding: 0 var(--mobile-padding);
     }
+
+    .projetos .container-projetos .projeto {
+        height: 80vh;
+    }
+
+    .projetos .container-projetos .projeto img {
+        width: 100%;
+    }
+
+
 }
