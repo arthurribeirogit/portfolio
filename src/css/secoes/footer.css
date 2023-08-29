@@ -12,3 +12,15 @@
     letter-spacing: 7px;
     margin-bottom: 20px;
 }
+
+
+@media(max-width:375px){
+    .footer h2{
+        font-size: 1.5;
+        letter-spacing: 0;
+    }
+
+    .footer .redes-sociais a{
+        margin: 10px 10px;
+    }
+}

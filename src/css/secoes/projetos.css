@@ -16,12 +16,6 @@
     box-shadow: 0px 0px 7px 0.001px var(--cor-destaque);
 }
 
-@media(max-width:425px){
-    .projetos .container-projetos .projeto {
-    height: auto;
-}
-}
-
 .projetos .container-projetos .projeto:hover,
 .projetos .container-projetos .projeto:hover .informacoes-projeto {
     opacity: 1;
@@ -96,12 +90,10 @@
     }
 
     .projetos .container-projetos .projeto {
-        height: 80vh;
+        height: auto;
     }
 
     .projetos .container-projetos .projeto img {
         width: 100%;
     }
-
-
 }
