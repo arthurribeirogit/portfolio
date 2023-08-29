@@ -29,20 +29,38 @@
    font-size: 7rem;
 }
 
-.habilidades .container-habilidades .informacoes p,
-.habilidades .container-habilidades .informacoes h3,
-.habilidades .container-habilidades .informacoes .logo i{
+.habilidades .container-habilidades .informacoes.hard-skills p,
+.habilidades .container-habilidades .informacoes.hard-skills h3,
+.habilidades .container-habilidades .informacoes.hard-skills .logo i{
     transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
     -webkit-transition: all 0.3s ease;
 }
 
-.habilidades .container-habilidades .informacoes:hover p {
-    color: var(--cor-secundaria);
+
+.habilidades .container-habilidades .informacoes.hard-skills:hover p, .habilidades .container-habilidades .informacoes.hard-skills:hover h3,
+.habilidades .container-habilidades .informacoes.hard-skills:hover .logo i{
+   color: var(--cor-secundaria);
 }
 
-.habilidades .container-habilidades .informacoes:hover h3,
-.habilidades .container-habilidades .informacoes:hover .logo i{
-   color: var(--cor-secundaria);
+
+/* SOFT-SKILLS */
+
+.habilidades .container-habilidades .informacoes.soft-skills  {
+   transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+}
+
+.habilidades .container-habilidades .informacoes.soft-skills:hover {
+   color: var(--cor-primaria);
+} 
+
+.informacoes.soft-skills .title-soft {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 100px;
 }
